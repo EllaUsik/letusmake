@@ -108,6 +108,24 @@
   box-shadow: 0 0 10px grey;
 }
 
+.let-us-button:focus {
+    outline: none;
+}
+
+.let-us-button:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  width: 80px;
+  background: white;
+  color: #525252;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  bottom: 40px;
+}
+
 .white-circle {
   background-color: white;
   width: 50px;
@@ -128,4 +146,281 @@
   border-bottom: 3px #525252 solid;
   border-right: 3px #525252 solid;
   transform: rotate(45deg);
+}
+
+.work {
+  padding: 50px 0 70px;
+}
+
+.work-title {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.work-title-underline {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+}
+
+.work-text {
+  display: block;
+  margin: 30px auto 55px;
+  color: #5a5a5a;
+  font-size: 16px;
+  width: 500px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.work-list {
+  display: block;
+ margin: 0 auto;
+}
+
+.work-picture {
+  width: 260px;
+  height: 170px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pillter {
+  background-image: url(images/Pillter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.touchmania {
+  background-image: url(images/Touchmania.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.locate {
+  background-image: url(images/Locate.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.umberapp {
+  background-image: url(images/Umberapp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hipo {
+  background-image: url(images/Hipo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pardio {
+  background-image: url(images/Pardio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.banadediki {
+  background-image: url(images/Banadediki.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.biz-corner {
+  background-image: url(images/BizCorner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arabul {
+  background-image: url(images/Arabul.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.team {
+  background-color: #f3f3f3;
+  padding: 50px 0 70px;
+}
+
+.team-title {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.team-title-underline {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+
+.team-text {
+  display: block;
+  margin: 30px auto 55px;
+  color: #5a5a5a;
+  font-size: 16px;
+  width: 500px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-member {
+  display: block;
+  width: 200px;
+  height: 210px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 3px 3px lightgrey;
+  list-style: none;
+}
+
+.around-member-circle {
+  margin: 15px auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 3px 3px lightgrey;
+}
+
+.member-circle {
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(images/Member01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.member {
+  display: block;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 135px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.member-position {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95px;
+  margin: 20px auto;
+}
+
+.social-network {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.linkedin {
+  background-image: url(images/LinkedIn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dribbel {
+  background-image: url(images/Dribbbel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter {
+  background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-network-link {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.social-network:hover {
+  opacity: .6;
+}
+
+.contact {
+  padding: 50px 0 70px;
+}
+
+.contact-title {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-title-underline {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+
+.contact-content-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.contact-block-title {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.map-border {
+  margin-top: 25px;
+  width: 320px;
+  height: 320px;
+  box-shadow: 0 0px 5px lightgrey;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  width: 310px;
+  height: 310px;
+  background-image: url(images/Map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.your-message {
+  margin-top: 25px;
+  width: 490px;
+  height: 190px;
+  background-color: #f2f2f2;
+  border-color: lightgrey;
+  font-style: italic;
+  font-size: 16px;
+  color: #5a5a5a;
+  padding: 25px;
 }
