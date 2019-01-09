@@ -424,3 +424,62 @@
   color: #5a5a5a;
   padding: 25px;
 }
+
+.for-sending {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 75px;
+}
+
+.your-email {
+  width: 240px;
+  height: 6px;
+  background-color: #f2f2f2;
+  border: none;
+  font-style: italic;
+  font-size: 16px;
+  color: #5a5a5a;
+  padding: 25px;
+  border: 2px lightgrey solid;
+}
+
+.send {
+  width: 206px;
+  height: 60px;
+  padding-left: 26px;
+  background-color: #6995a9;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px white solid;
+  box-shadow: 0 2px 5px lightgrey;
+  background-image: url(images/SendIcon.png);
+  background-repeat: no-repeat;
+  background-position: center left 60px;
+}
+
+.send:hover {
+  box-shadow: 0 2px 5px grey;
+}
+
+footer {
+  background-color: #4f4f4f;
+  padding: 50px 0;
+}
+
+.full-adress {
+  display: block;
+  color: #6e6e6e;
+  font-size: 16px;
+}
+
+.adress {
+  color: #949494;
+}
+
+.copyright {
+  display: block;
+  color: #6e6e6e;
+  font-size: 16px;
+}
