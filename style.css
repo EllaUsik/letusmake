@@ -77,7 +77,7 @@
   display: block;
   padding-top: 170px;
   margin: 0 auto;
-  width: 400px;
+  max-width: 400px;
   color: black;
   font-size: 40px;
   text-align: center;
@@ -86,7 +86,7 @@
 .hero-text {
   display: block;
   margin: 30px auto 70px;
-  width: 500px;
+  max-width: 500px;
   color: #5a5a5a;
   font-size: 16px;
   text-align: center;
@@ -161,7 +161,7 @@
 .work-title-underline {
   display: block;
   margin: 0 auto;
-  width: 240px;
+  max-width: 240px;
 }
 
 .work-text {
@@ -169,7 +169,7 @@
   margin: 30px auto 55px;
   color: #5a5a5a;
   font-size: 16px;
-  width: 500px;
+  max-width: 500px;
   text-align: center;
   line-height: 25px;
 }
@@ -267,7 +267,7 @@
   margin: 30px auto 55px;
   color: #5a5a5a;
   font-size: 16px;
-  width: 500px;
+  max-width: 500px;
   text-align: center;
   line-height: 25px;
 }
@@ -439,6 +439,7 @@
 .contact-block-title {
   font-size: 16px;
   color: #5a5a5a;
+  max-width: 320px;
 }
 
 .map-border {
@@ -457,12 +458,13 @@
   height: 310px;
   background-image: url(images/Map.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .your-message {
   margin-top: 25px;
-  width: 490px;
+  width: auto;
+  max-width: 490px;
   height: 190px;
   background-color: #f2f2f2;
   border-color: lightgrey;
@@ -543,4 +545,133 @@ footer {
   display: block;
   color: #6e6e6e;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  .wrapper {
+    max-width: 1000px;
+    min-width: 800px;
+    width: auto;
+  }
+
+  .content-space {
+    padding: 0 20px;
+    width: auto;
+  }
+
+  .let-us-button:hover::after {
+    display: none;
+  }
+
+  .your-message {
+    width: 350px;
+  }
+
+  .your-email {
+    width: 120px;
+  }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 879px) {
+  .work-list {
+    justify-content: space-around;
+    min-height: 1100px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .work-list {
+    justify-content: space-around;
+    min-height: 1100px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .work-list {
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .wrapper {
+    max-width: 800px;
+    min-width: 320px;
+    width: auto;
+  }
+
+  .content-space {
+    padding: 0 10px;
+    width: auto;
+  }
+
+  .nav-menu {
+    width: 200px;
+  }
+
+  .let-us-button:hover::after {
+    display: none;
+  }
+
+  .team-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    margin: 0 auto;
+    min-height: 430px;
+  }
+
+  .team-member {
+    margin: 5px;
+  }
+
+  .contact-content-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    margin: 30px auto 0;
+  }
+
+  .contact-block-title {
+    padding-left: 5px;
+  }
+
+  .map-border {
+    margin: 25px auto;
+  }
+
+  .for-sending {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  .your-message {
+    display: block;
+    margin: 25px auto;
+  }
+
+  .your-email {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+  .send{
+    width: 235px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: none;
+  }
+
 }
