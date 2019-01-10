@@ -175,8 +175,13 @@
 }
 
 .work-list {
-  display: block;
- margin: 0 auto;
+  min-height: 630px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
 }
 
 .work-picture {
@@ -295,13 +300,49 @@
   box-shadow: 0 3px 3px lightgrey;
 }
 
-.member-circle {
+.member-circle01 {
   display: block;
   width: 79px;
   height: 79px;
   border-radius: 50%;
   border: none;
   background-image: url(images/Member01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.member-circle02 {
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(images/Member02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.member-circle03 {
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(images/Member03.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.member-circle04 {
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(images/Member04.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -353,6 +394,12 @@
 
 .twitter {
   background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skype {
+  background-image: url(images/Skype.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -425,6 +472,11 @@
   padding: 25px;
 }
 
+.your-message:focus {
+  outline: none;
+  box-shadow: 0 2px 5px grey;
+}
+
 .for-sending {
   display: flex;
   justify-content: space-between;
@@ -444,6 +496,11 @@
   border: 2px lightgrey solid;
 }
 
+.your-email:focus {
+  outline: none;
+  box-shadow: 0 2px 5px grey;
+}
+
 .send {
   width: 206px;
   height: 60px;
@@ -457,6 +514,10 @@
   background-image: url(images/SendIcon.png);
   background-repeat: no-repeat;
   background-position: center left 60px;
+}
+
+.send:focus {
+  outline-color: lightgrey;
 }
 
 .send:hover {
