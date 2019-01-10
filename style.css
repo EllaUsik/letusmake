@@ -463,8 +463,7 @@
 
 .your-message {
   margin-top: 25px;
-  width: auto;
-  max-width: 490px;
+  width: 490px;
   height: 190px;
   background-color: #f2f2f2;
   border-color: lightgrey;
@@ -658,6 +657,8 @@ footer {
   .your-message {
     display: block;
     margin: 25px auto;
+    width: auto;
+    max-width: 490px;
   }
 
   .your-email {
