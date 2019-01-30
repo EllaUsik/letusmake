@@ -152,19 +152,19 @@
   padding: 50px 0 70px;
 }
 
-.work-title {
+.block-title {
   font-size: 30px;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.work-title-underline {
+.block-title-underline {
   display: block;
   margin: 0 auto;
   max-width: 240px;
 }
 
-.work-text {
+.block-text {
   display: block;
   margin: 30px auto 55px;
   color: #5a5a5a;
@@ -248,28 +248,6 @@
 .team {
   background-color: #f3f3f3;
   padding: 50px 0 70px;
-}
-
-.team-title {
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.team-title-underline {
-  display: block;
-  margin: 0 auto;
-  width: 180px;
-}
-
-.team-text {
-  display: block;
-  margin: 30px auto 55px;
-  color: #5a5a5a;
-  font-size: 16px;
-  max-width: 500px;
-  text-align: center;
-  line-height: 25px;
 }
 
 .team-list {
@@ -416,18 +394,6 @@
 
 .contact {
   padding: 50px 0 70px;
-}
-
-.contact-title {
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.contact-title-underline {
-  display: block;
-  margin: 0 auto;
-  width: 180px;
 }
 
 .contact-content-block {
