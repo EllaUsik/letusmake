@@ -440,6 +440,24 @@
   padding: 25px;
 }
 
+.incorect-message {
+  font-size: 16px;
+  color: red;
+  max-width: 320px;
+  padding: 15px 0 0 5px;
+}
+
+.incorect-email {
+  font-size: 16px;
+  color: red;
+  max-width: 320px;
+  padding: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
+
 .your-message:focus {
   outline: none;
   box-shadow: 0 2px 5px grey;
